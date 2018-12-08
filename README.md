@@ -1,2 +1,2 @@
 # bert_sa
-sentimental analysis based on bert
+sentiment analysis based on bert
