@@ -1,7 +1,7 @@
 # bert_sa
 sentiment analysis based on [bert](https://github.com/google-research/bert/blob/master/multilingual.md) including training, online predicting and serving with REST 
 
-## Train a sentiment analysis model
+## Fine tune a sentiment analysis model based on [BERT](https://github.com/google-research/bert)
 1. Add a `SAProcessor` and include it within `main` function in run_classifier.py 
 2. Prepare train, dev and test files; adapat `_create_examples` method in `SAProcessor` based on your own datasets (pandas may not be required)
 3. Specify `BERT_BASE_DIR`, `SA_DIR` and `output_dir` in run_sa.sh and run 
