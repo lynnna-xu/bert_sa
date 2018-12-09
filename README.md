@@ -1,5 +1,5 @@
-# bert_sa
-sentiment analysis based on [bert](https://github.com/google-research/bert/blob/master/multilingual.md) including training, online predicting and serving with REST 
+# bert_sa (bert sentiment analysis tensorflow serving with RESTful API)
+based on [bert](https://github.com/google-research/bert/blob/master/multilingual.md) including training, online predicting and serving with [REST](https://www.tensorflow.org/serving/api_rest) 
 
 ## Fine tune a sentiment analysis model based on [BERT](https://github.com/google-research/bert)
 1. Add a `SAProcessor` and include it within `main` function in run_classifier.py 
